@@ -46,7 +46,7 @@ body {
         color: #000000;
     }
     .blurb-block .blurb {
-        width: 500px;
+        width: 450px;
         margin: 0 auto;
         line-height: 25px;
     }
@@ -62,17 +62,23 @@ body {
     .form-block .text-input {
         margin-bottom: 15px;
     }
-        .form-block .text-input input { /* TODO: rounded corners */
+        .form-block .text-input input {
             font-family: "Bitter", serif;
             width: 285px;
             height: 38px;
             line-height: 38px;
             padding-left: 12px;
+            border: 1px solid #dedede;
+            color: #979797;
+
+            -webkit-border-radius: 3px; /* Webkit */
+            -moz-border-radius: 3px; /* Mozilla Firefox */
+            border-radius: 3px; /* W3C Markup, IE10 Release Preview */
         }
     .form-block .submit-button {
         margin-top: 44px;
     }
-        .form-block .submit-button input { /* TODO: rounded corners */
+        .form-block .submit-button input {
             width: 285px;
             height: 78px;
             line-height: 78px;
@@ -90,6 +96,10 @@ body {
             background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00D1E7), color-stop(1, #00C7E1)); /* Webkit (Safari/Chrome 10) */
             background-image: -webkit-linear-gradient(top, #00D1E7 0%, #00C7E1 100%); /* Webkit (Chrome 11+) */
             background-image: linear-gradient(to bottom, #00D1E7 0%, #00C7E1 100%); /* W3C Markup, IE10 Release Preview */
+
+            -webkit-border-radius: 10px; /* Webkit */
+            -moz-border-radius: 10px; /* Mozilla Firefox */
+            border-radius: 10px; /* W3C Markup, IE10 Release Preview */
         }
 
 .nav-region {
