@@ -69,11 +69,8 @@ body {
             line-height: 38px;
             padding-left: 12px;
             border: 1px solid #dedede;
+            border-radius: 3px;
             color: #979797;
-
-            -webkit-border-radius: 3px; /* Webkit */
-            -moz-border-radius: 3px; /* Mozilla Firefox */
-            border-radius: 3px; /* W3C Markup, IE10 Release Preview */
         }
     .form-block .submit-button {
         margin-top: 44px;
@@ -88,6 +85,7 @@ body {
             font-size: 24px;
             color: #ffffff;
             border: solid 1px #00acc0;
+            border-radius: 3px;
 
             background-color: #00c7e1; /* top: #00d1e7, bottom: #00c7e1 */
             background-image: -ms-linear-gradient(top, #00D1E7 0%, #00C7E1 100%); /* IE10 Consumer Preview */
@@ -96,10 +94,6 @@ body {
             background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00D1E7), color-stop(1, #00C7E1)); /* Webkit (Safari/Chrome 10) */
             background-image: -webkit-linear-gradient(top, #00D1E7 0%, #00C7E1 100%); /* Webkit (Chrome 11+) */
             background-image: linear-gradient(to bottom, #00D1E7 0%, #00C7E1 100%); /* W3C Markup, IE10 Release Preview */
-
-            -webkit-border-radius: 10px; /* Webkit */
-            -moz-border-radius: 10px; /* Mozilla Firefox */
-            border-radius: 10px; /* W3C Markup, IE10 Release Preview */
         }
 
 .nav-region {
