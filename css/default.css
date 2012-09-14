@@ -125,6 +125,7 @@ body {
         .form-block .submit-button input:hover
         {
             background-color:#4ed3e3;
+            background-image: none;
         }
 
 #navigation {
