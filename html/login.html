@@ -3,6 +3,7 @@
     <title>Hello.</title>
     <link href='http://fonts.googleapis.com/css?family=Bitter:700,400italic,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../css/default.css" />
+      <script type="text/javascript" src="../js/hello_js.js"></script>
   </head>
 
   <body>
@@ -15,11 +16,12 @@
           <div>We're excited to have you on board.</div>
           <div class="blue-text">Let's get you up and running!</div>
         </div>
+          <div id="hello1"></div>
         <div id="login-form-block" class="form-block">
-          <form method="POST" action="authenticate.php">
-            <div class="text-input"><input type="text" name="login_email" id="login_email" value="email@reisystems.com" /></div>
-            <div class="text-input"><input type="password" name="login_password" id="login_password" value="password" /></div>
-            <div class="submit-button"><input type="submit" value="log in" /></div>
+          <form method="POST" action="" onsubmit="loadNextPage();return false;">
+            <div class="text-input" id="login_uname"><input type="text" name="login_email" id="login_email" value="email@reisystems.com" /></div>
+            <div class="text-input" id="login_passwd"><input type="password" name="login_password" id="login_password" value="password" /></div>
+            <div class="submit-button"><input type="submit" value="log in"/></div>
           </form>
         </div>
       </div>
