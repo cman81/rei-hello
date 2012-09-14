@@ -30,7 +30,7 @@ body {
     .blurb-block .huge-hello {
         font-style: normal;
         font-size: 120px;
-        font-family: "Myriad Pro", sans-serif;
+        font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-serif;
         font-weight: bold;
         letter-spacing: -7px;
         margin-bottom: -30px;
@@ -39,7 +39,7 @@ body {
     .blurb-block .huge-welcome {
         font-style: normal;
         font-size: 80px;
-        font-family: "Myriad Pro", sans-serif;
+        font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-serif;
         font-weight: bold;
         letter-spacing: -4px;
         margin-bottom: -5px;
@@ -79,7 +79,7 @@ body {
             width: 285px;
             height: 78px;
             line-height: 78px;
-            font-family: "Myriad Pro", sans-serif;
+            font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-serif;
             font-weight: bold;
             font-style: italic;
             font-size: 24px;
