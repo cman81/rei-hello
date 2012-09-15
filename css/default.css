@@ -29,6 +29,8 @@ body {
 }
     .blurb-block .avatar {
         margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .blurb-block .huge-hello {
         font-style: normal;
@@ -61,7 +63,19 @@ body {
 {
     font-family:"Nothing You Could Do", Journal, Georgia;
     font-variant:italic;
-    
+    font-size:0.9em;
+    width:120px;
+    background-image:url('../images/arrow.png')
+    background-repeat:no-repeat;
+    background-position:top left;
+    position:absolute; /*need to change this to relative.*/
+    top:400px;
+    left:700px;
+    padding:15px 0 0 30px;
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
 }
 
 .form-block {
@@ -184,3 +198,54 @@ body {
 #main-region .step {
     display: none;
 }
+
+.size440x330 { width:440px; height:330px;}
+.webcam-container object {border:1px solid #000;}
+.webcam-error {color:red;padding-top:10px;}
+
+#change-dialog {
+    width: 440px;
+}
+    #change-dialog div {
+        width: 330px;
+        height: 330px;
+        line-height: 330px;
+        text-align: center;
+        margin: 0 auto;
+
+        background-color: #00C7E1;
+        color: #ffffff;
+        opacity:0;
+        filter:alpha(opacity=0); /* For IE8 and earlier */
+
+        font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #change-dialog div:hover {
+        opacity:0.8;
+        filter:alpha(opacity=80); /* For IE8 and earlier */
+    }
+
+.avatar { }
+    .avatar #webcam-frame {
+        position: relative;
+        z-index: 30;
+        pointer-events: none;
+    }
+    .avatar #change-dialog {
+        position: relative;
+        z-index: 20;
+        margin-top: -330px;
+    }
+    .avatar #stored-picture {
+        position: relative;
+        z-index: 10;
+        margin-top: -330px;
+    }
+    .avatar #webcam {
+        position: relative;
+        margin-top: -330px;
+    }
+    .avatar #popup-webcam-cams { display: none; }

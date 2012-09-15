@@ -28,4 +28,27 @@ $(document).ready(function() {
   		.fadeIn(600);
 		$('#nav_'+nextStep).addClass('active');
   });
+
+
+	$('#login_email').focus(function(e) {
+		if ($('#login_email').val() == 'email@reisystems.com') {
+			$('#login_email').val('');
+		}
+	});
+	$('#login_email').blur(function(e) {
+		if ($('#login_email').val() == '') {
+			$('#login_email').val('email@reisystems.com');
+		}
+	});
+
+	$('#login_password').focus(function(e) {
+		if ($('#login_password').val() == 'password') {
+			$('#login_password').val('');
+		}
+	});
+	$('#login_password').blur(function(e) {
+		if ($('#login_password').val() == '') {
+			$('#login_password').val('password');
+		}
+	});
 });
