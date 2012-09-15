@@ -3,7 +3,7 @@ $(document).ready(function() {
 	/*
 	 * Wizard
 	 */
-
+    $step0 = $('#step-0');
 	$step1 = $('#step-1');
 	$step2 = $('#step-2');
 	$step3 = $('#step-3');
@@ -11,7 +11,7 @@ $(document).ready(function() {
 	$step5 = $('#step-5');
 	$step6 = $('#step-6');
 
-	$step1.fadeIn('slow');
+	$step0.fadeIn('slow');
 
 	
 
