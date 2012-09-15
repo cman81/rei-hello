@@ -57,7 +57,7 @@
                         <div>We're excited to have you on board.</div>
                         <div class="blue-text">Let's get you up and running!</div>
                     </div>
-                    <!-- <div id="hello1"></div> -->
+                    <div id="hello1"></div>
                     <div id="login-form-block" class="form-block">
                         <form method="POST" action="" onsubmit="loadNextPage();return false;">
                             <div class="text-input"><input type="text" name="login_email" id="login_email" value="email@reisystems.com" /></div>
@@ -73,20 +73,19 @@
 					<div class="avatar">
 						<img src="../images/profile_photo.png" />
 					</div>
-					<div class="huge-welcome">Hello, <span class="blue-text">David!</span></div>
+					<div class="huge-welcome">Hello, <span class="blue-text" id="blue-text-name"></span></div>
 					<div class="blurb">
 						We know you're new here, and we want to make your first steps as painless as possible. Just in case
-						you didn't already know, you're the new <span class="blue-text">Associate Database Engineer</span>
-						on the <span class="blue-text">NYC Checkbook</span> project in the <span class="blue-text">Open
+						you didn't already know, you're the new <span class="blue-text" id="blue-text-title"></span>
+						on the <span class="blue-text" id="blue-text-project"></span> project in the <span class="blue-text">Open
 						Government</span> program. Your mentor will be <span class="blue-text">Anita Kozak</span>; she can
-						answer any questions you may have. Starting today, you'll report to <span class="blue-text">Amanandan
-						Dhami</span>. You'll be working on the Open Government team which is led by <span class="blue-text">Amit
-						Yadav</span>.
+						answer any questions you may have. Starting today, you'll report to <span class="blue-text" id="blue-text-resource-mgr"></span>.
+                        You'll be working on the Open Government team which is led by <span class="blue-text">Amit Yadav</span>.
 					</div>
 				</div>
 				<div class="intro-form-block form-block">
-					<form>
-						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
+                    <form method="POST" action="" onsubmit="loadNextPage2();return false;">
+						<div class="submit-button"><input class="continue--" type="submit" value="continue" /></div>
 					</form>
 				</div>
 			</div>
