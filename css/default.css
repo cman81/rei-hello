@@ -61,7 +61,11 @@ body {
 {
     font-family:"Nothing You Could Do", Journal, Georgia;
     font-variant:italic;
-    
+    font-size:0.7em;
+    background-image:url('../images/arrow.png') no-repeat top left;
+    position:absolute;
+    top:400px;
+    left:700px;
 }
 
 .form-block {
