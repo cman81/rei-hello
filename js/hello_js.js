@@ -18,7 +18,7 @@ function loadNextPage(){
 
     xmlhttp.onreadystatechange=function(){
         if (xmlhttp.readyState==4 && xmlhttp.status==200){
-            document.getElementById("hello1").innerHTML=xmlhttp.responseText;
+            //document.getElementById("hello1").innerHTML=xmlhttp.responseText;
             if(xmlhttp.responseText=='Wrong password')
                 document.getElementById("login_password").style.border = '1px solid #ff4800';
             else if(xmlhttp.responseText=='Wrong username')
