@@ -8,7 +8,7 @@ if($_POST['uname']=='')
 else if($_POST['passwd']=='')
     $status = $wrong_pass;
 else{
-    $link = mysql_connect('localhost','hellodb','Hello_Team') or die('Could not connect to db');
+    $link = mysql_connect('localhost','hello','Hello_Team') or die('Could not connect to db');
     mysql_select_db("hellodb", $link) or die('Could not select db');
     //We are not worrried about sql injection or anything for now, just keep it simple
     $query = "SELECT * FROM users u, employees e, projects p WHERE username='".$_POST['uname']."' and password='".$_POST['passwd']."' and u.id=e.user_id and p.id=e.proj_id";
