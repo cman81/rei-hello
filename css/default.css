@@ -80,8 +80,10 @@ body {
 
 .form-block {
     text-align: center;
-    margin-top: 60px;
     font-size: 12px;
+    bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
     .form-block .text-input {
         margin-bottom: 15px;
@@ -148,7 +150,10 @@ body {
     clear: both;
     height: 78px;
     padding-top: 26px;
-    margin-bottom: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .nav-region {
@@ -173,16 +178,18 @@ body {
         padding-right: 0;
     }
     .nav-container .nav-step {
-        width: 32px;
         height: 32px;
         margin: 0 auto 8px;
         background: #00cce4;
-        -webkit-border-radius: 16px;
-        -moz-border-radius: 16px;
-        border-radius: 16px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        border-radius: 18px;
         line-height: 32px;
         width: 32px;
         color: #fff;
+        border: #00cce4 2px solid;
+        font-family: Bitter;
+        font-size: 14px;
     }
     .nav-region .highlighted-label {
         font-weight: bold;

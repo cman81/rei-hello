@@ -31,12 +31,16 @@ $(document).ready(function() {
 
 
 	$('#login_email').focus(function(e) {
-		if ($('#login_email').val() == 'email@reisystems.com') {
-			$('#login_email').val('');
+		if ($(this).val() == 'email@reisystems.com') {
+			$(this).val('@reisystems.com');
+			setCaretToPos(this, 0);
 		}
 	});
 	$('#login_email').blur(function(e) {
 		if ($('#login_email').val() == '') {
+			$('#login_email').val('email@reisystems.com');
+		}
+		if ($('#login_email').val() == '@reisystems.com') {
 			$('#login_email').val('email@reisystems.com');
 		}
 	});
@@ -52,3 +56,21 @@ $(document).ready(function() {
 		}
 	});
 });
+
+function setSelectionRange(input, selectionStart, selectionEnd) {
+	if (input.setSelectionRange) {
+		input.focus();
+		input.setSelectionRange(selectionStart, selectionEnd);
+	}
+	else if (input.createTextRange) {
+		var range = input.createTextRange();
+		range.collapse(true);
+		range.moveEnd('character', selectionEnd);
+		range.moveStart('character', selectionStart);
+		range.select();
+	}
+}
+
+function setCaretToPos (input, pos) {
+	setSelectionRange(input, pos, pos);
+}
