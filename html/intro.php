@@ -57,7 +57,7 @@
                         <div>We're excited to have you on board.</div>
                         <div class="blue-text">Let's get you up and running!</div>
                     </div>
-                    <div id="hello1"></div>
+                    <!-- <div id="hello1"></div> -->
                     <div id="login-form-block" class="form-block">
                         <form method="POST" action="" onsubmit="loadNextPage();return false;">
                             <div class="text-input"><input type="text" name="login_email" id="login_email" value="email@reisystems.com" /></div>
