@@ -61,11 +61,19 @@ body {
 {
     font-family:"Nothing You Could Do", Journal, Georgia;
     font-variant:italic;
-    font-size:0.7em;
-    background-image:url('../images/arrow.png') no-repeat top left;
-    position:absolute;
+    font-size:0.9em;
+    width:120px;
+    background-image:url('../images/arrow.png')
+    background-repeat:no-repeat;
+    background-position:top left;
+    position:absolute; /*need to change this to relative.*/
     top:400px;
     left:700px;
+    padding:15px 0 0 30px;
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
 }
 
 .form-block {
