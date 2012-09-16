@@ -293,6 +293,53 @@ body {
     }
     .avatar #popup-webcam-cams { display: none; }
 
+/* Checklist */
+#step-2 {
+    width: 800px;
+    margin: 0 auto;
+}
+.column-1 {
+    width: 50%;
+    float: left;
+}
+.column-2 {
+    width: 50%;
+    float: left;
+}
+.checklist-blurb-block {
+    text-align: left;
+
+}
+    .checklist-blurb-block .field-group {
+        font-family: Bitter;
+        font-style: italic;
+        font-size: 24px;
+        color: #00cce4;
+        margin-bottom: 10px;
+    }
+    .checklist-blurb-block .checkbox-input {
+        margin-bottom: 10px;
+    }
+    .checklist-blurb-block .checkbox-input label {
+        background: url('../images/checkbox-bg-default.png') no-repeat;
+        height: 28px;
+        display: block;
+        line-height: 28px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+    .checklist-blurb-block .checkbox-input input {
+        background: url('../images/checkbox-bg-default.png') no-repeat;
+        visibility: hidden;
+        width: 28px;
+        height: 28px;
+        margin: 0;
+        vertical-align: middle;
+    }
+.checklist-form-block {
+    clear: both;
+}
+
 #paperwork-blurb-block .instruction {
     margin-top: 30px;
     font-family: "Bitter", Georgia, serif;

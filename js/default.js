@@ -45,6 +45,7 @@ $(document).ready(function() {
   });
 
 
+  	// Intro step
 	$('#login_email').focus(function(e) {
 		if ($(this).val() == 'email@reisystems.com') {
 			$(this).val('@reisystems.com');
@@ -70,20 +71,48 @@ $(document).ready(function() {
 			$('#login_password').val('password');
 		}
 	});
+
+	// Checklist step
+	$('.checklist-blurb-block .checkbox-input label').each(function() {
+		$(this).hover(function() {
+				if ($(this).children().attr('checked') == 'checked') {
+					$(this).css('background-image','url("../images/checkbox-bg-checked-hover.png")');
+				}
+				else {
+					$(this).css('background-image','url("../images/checkbox-bg-hover.png")');	
+				}
+			}, function() {
+				if ($(this).children().attr('checked') == 'checked') {
+					$(this).css('background-image','url("../images/checkbox-bg-checked.png")');
+				}
+				else {
+					$(this).css('background-image','url("../images/checkbox-bg-default.png")');	
+				}
+			})
+			.toggle(function() {
+				$(this).css('background-image','url("../images/checkbox-bg-checked.png")');
+				$(this).children().attr('checked','checked');
+
+			}, function() {
+				$(this).css('background-image','url("../images/checkbox-bg-default.png")');
+				$(this).children().removeAttr('checked');
+			});
+	});
 });
 
 function switchStep(step) {
 	var step = step.toString();
 	//var nextStep = (parseInt(step) + 1).toString();
 
-	$('.step.active').removeClass('active')
+	$('.step.active')//.removeClass('active')
   		.hide("slide", { direction: "left" }, 200);
   	//$('#nav_'+currentStep).removeClass('active');
   	setTimeout(function(){
-  		$('#step-'+step).addClass('active')
+  		
+  		$('#step-'+step)//.addClass('active')
   			.fadeIn(600);
   	},400);
-	$('#nav_'+step).addClass('active');
+	//$('#nav_'+step).addClass('active');
 }
 
 function setSelectionRange(input, selectionStart, selectionEnd) {

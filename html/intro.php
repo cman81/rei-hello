@@ -51,6 +51,7 @@
 		</div>
 		<div id="main-region">
             <div id="login-floater"></div><!-- intentionally blank -->
+            <?php // Login screen ?>
             <div id="step-0" class="step active">
 				<div id="login-container" class="login-container">
 					<div class="main-region">
@@ -71,6 +72,7 @@
 					</div>
 				</div>
             </div>
+            <?php // Welcome ?>
 			<div id="step-1" class="step">
 				<div class="intro-blurb-block blurb-block">
 					<div class="avatar size440x330">
@@ -103,24 +105,23 @@
 				</div>
 				<p class="webcam-error"></p>
 			</div>
-
+			<?php // Checklist ?>
 			<div id="step-2" class="step">
-				<div class="intro-blurb-block blurb-block">
-					<div class="avatar">
-						<img src="../images/profile_photo.png" />
+				<div class="column-1">
+					<div class="checklist-blurb-block blurb-block">
+						<form>
+							<div class="field-group">Software</div>
+							<div class="checkbox-input"><label for="photoshop"><input type="checkbox" name="photoshop" id="photoshop" value="Adobe Photoshop CS6">Adobe Photoshop CS6</label></div>
+							<div class="checkbox-input"><label for="illustrator"><input type="checkbox" name="illustrator" id="illustrator" value="Adobe Illustrator CS6">Adobe Illustrator CS6</label></div>
+							<div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign" value="Adobe InDesign CS6">Adobe InDesign CS6</label></div>
+						</form>
 					</div>
-					<div class="huge-welcome">OPPA <span class="blue-text">GANGNAM STYLE! 2</span></div>
-					<div class="blurb">
-						We know you're new here, and we want to make your first steps as painless as possible. Just in case
-						you didn't already know, you're the new <span class="blue-text">Associate Database Engineer</span>
-						on the <span class="blue-text">NYC Checkbook</span> project in the <span class="blue-text">Open
-						Government</span> program. Your mentor will be <span class="blue-text">Anita Kozak</span>; she can
-						answer any questions you may have. Starting today, you'll report to <span class="blue-text">Amanandan
-						Dhami</span>. You'll be working on the Open Government team which is led by <span class="blue-text">Amit
-						Yadav</span>.
-					</div>
+					
 				</div>
-				<div class="intro-form-block form-block">
+				<div class="column-2">
+
+				</div>
+				<div class="checklist-form-block form-block">
 					<form>
 						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
 					</form>
