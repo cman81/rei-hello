@@ -63,7 +63,12 @@ function loadNextPage2(){
         if (xmlhttp.readyState==4 && xmlhttp.status==200){
             //document.getElementById("hello1").innerHTML=xmlhttp.responseText;
             $('#blue-text-name').html(xmlhttp.responseText);
-        }
+			var currentStep = $('.step.active').attr('id').substr(-1);
+			var nextStep = (parseInt(currentStep)+1).toString();
+			$('#step-'+currentStep).removeClass('active').hide("slide", { direction: "left" }, 200);
+			$('#step-'+nextStep).addClass('active').fadeIn(600);
+			$('#nav_'+nextStep).addClass('active');
+		}
     }
 
     xmlhttp.open("POST","../content.php",true);
