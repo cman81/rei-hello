@@ -17,31 +17,31 @@
 	<body>
 		<div id="navigation" style='display:none;'>
 			<div class="nav-region">
-				<div id="nav_1" class="nav-container active">
+				<div id="nav_1" class="nav-container">
 					<div class="nav-step">1</div>
 					<div class="label highlighted-label">Welcome</div>
 				</div>
-				<div class="nav_spacer_active"></div>
+				
 				<div id="nav_2" class="nav-container">
 					<div class="nav-step">2</div>
 					<div class="label">Checklist</div>
 				</div>
-				<div class="nav_spacer_incomplete"></div>
+				
 				<div id="nav_3" class="nav-container">
 					<div class="nav-step">3</div>
 					<div class="label">Paperwork</div>
 				</div>
-				<div class="nav_spacer_incomplete"></div>
+				
 				<div id="nav_4" class="nav-container">
 					<div class="nav-step">4</div>
 					<div class="label">Tutorials</div>
 				</div>
-				<div class="nav_spacer_incomplete"></div>
+				
 				<div id="nav_5" class="nav-container">
 					<div class="nav-step">5</div>
 					<div class="label">Resources</div>
 				</div>
-				<div class="nav_spacer_incomplete"></div>
+				
 				<div id="nav_6" class="nav-container">
 					<div class="nav-step">6</div>
 					<div class="label">Let's go!</div>
