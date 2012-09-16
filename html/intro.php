@@ -86,7 +86,7 @@
 						</div>
 					</div>
 
-					<div class="huge-welcome">Hello, <span class="blue-text">David!</span></div>
+					<div class="huge-welcome">Hello, <span class="blue-text" id="blue-text-name"></span></div>
 					<div class="blurb">
 						We know you're new here, and we want to make your first steps as painless as possible. Just in case
 						you didn't already know, you're the new <span class="blue-text" id="blue-text-title"></span>
