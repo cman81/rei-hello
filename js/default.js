@@ -15,24 +15,27 @@ $(document).ready(function() {
 
 	var latestStep = 0;
 
+	// When user clicks on "Continue" button
   $('.continue').click(function(e) {
-  	e.preventDefault();
 
   	var currentStep = $('.step.active').attr('id').substr(-1);
   	var nextStep = (parseInt(currentStep)+1).toString();
 
   	$('#step-'+currentStep).removeClass('active')
-  		.addClass('completed')
+  		.addClass('complete')
   		.hide("slide", { direction: "left" }, 200);
   	$('#nav_'+currentStep).removeClass('active')
-  		.addClass('completed');
+  		.addClass('complete');
   	$('#step-'+nextStep).addClass('active')
   		.fadeIn(600);
 		$('#nav_'+nextStep).addClass('active');
 
 	if (nextStep > latestStep) latestStep = nextStep;
+
+	e.preventDefault();
   });
 
+  // When user clicks on a navigation button
   $('.nav-container').click(function(e) {
   	var clickedStep = $(this).attr('id').substr(-1);
   	if (clickedStep < latestStep) {
