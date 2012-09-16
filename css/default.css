@@ -88,9 +88,11 @@ body {
     margin-bottom: 60px;
 }
     .form-block .field-group {
-        margin-top: 25px;
-        font-family: "Bitter", serif;
-        font-size: 1em;
+        font-family: "Bitter",serif;
+        font-size: 1.25em;
+        margin: 35px auto 5px;
+        text-align: left;
+        width: 375px;
     }
     .form-block .text-input {
         margin-bottom: 15px;
