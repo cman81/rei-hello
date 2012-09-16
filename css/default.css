@@ -164,7 +164,7 @@ body {
 .nav-container {
     text-align: center;
     float: left;
-    padding: 0 22px;
+    padding: 0 20px;
     background: url('../images/nav-step-bg.png') repeat-x center 9px;
     cursor: pointer;
 }
@@ -180,16 +180,24 @@ body {
     .nav-container .nav-step {
         height: 32px;
         margin: 0 auto 8px;
-        background: #00cce4;
+        background: #dfdfdf;
         -webkit-border-radius: 18px;
         -moz-border-radius: 18px;
         border-radius: 18px;
         line-height: 32px;
         width: 32px;
         color: #fff;
-        border: #00cce4 2px solid;
+        border: #dfdfdf 2px solid;
         font-family: Bitter;
         font-size: 14px;
+    }
+    .nav-container.active .nav-step {
+        background: #f5f5f5;
+        color: #00cce4;
+    }
+    .nav-container.completed .nav-step {
+        background: #00cce4;
+        border: #00cce4 2px solid;
     }
     .nav-region .highlighted-label {
         font-weight: bold;
@@ -201,7 +209,9 @@ body {
         color: #dfdfdf;
         letter-spacing: 1px;
     }
-
+#main-region {
+    margin-top: 104px;
+}
 #main-region .step {
     display: none;
 }
