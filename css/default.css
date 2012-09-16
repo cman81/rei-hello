@@ -20,7 +20,9 @@ body {
     width: 100%;
 }
 
-#login-blurb-block { font-style: italic; }
+#login-blurb-block,
+#paperwork-blurb-block { font-style: italic; }
+
 .blurb-block {
     text-align: center;
     font-family: "Bitter", Georgia, serif;
@@ -85,6 +87,11 @@ body {
     margin-top: 40px;
     margin-bottom: 60px;
 }
+    .form-block .field-group {
+        margin-top: 25px;
+        font-family: "Bitter", serif;
+        font-size: 1em;
+    }
     .form-block .text-input {
         margin-bottom: 15px;
     }
@@ -266,3 +273,14 @@ body {
         margin-top: -330px;
     }
     .avatar #popup-webcam-cams { display: none; }
+
+#paperwork-blurb-block .instruction {
+    margin-top: 30px;
+    font-family: "Bitter", Georgia, serif;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#paperwork-form-block .text-input input {
+    width: 375px;
+}
