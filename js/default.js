@@ -81,6 +81,7 @@ function switchStep(step) {
   			.fadeIn(600);
   	},400);
 	$('#nav_'+step).addClass('active');
+}
 
 function setSelectionRange(input, selectionStart, selectionEnd) {
 	if (input.setSelectionRange) {
