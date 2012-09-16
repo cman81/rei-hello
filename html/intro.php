@@ -8,7 +8,10 @@
 		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 		<script src="../js/default.js" type="text/javascript"></script>
-        <script type='text/javascript' src='../js/hello_js.js'></script>
+		<script type='text/javascript' src='../js/hello_js.js'></script>
+		<script type="text/javascript" src="../js/jQuery_webcam_as3/jquery.webcam.as3.js"></script>
+		<script type='text/javascript' src='../js/camera.js'></script>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	</head>
 
 	<body>
@@ -49,31 +52,41 @@
 		<div id="main-region">
             <div id="login-floater"></div><!-- intentionally blank -->
             <div id="step-0" class="step active">
-            <div id="login-container" class="login-container">
-                <div class="main-region">
-                    <div id="login-blurb-block" class="blurb-block">
-                        <div class="huge-hello">Hello,</div>
-                        <div>welcome to REI Systems.</div>
-                        <div>We're excited to have you on board.</div>
-                        <div class="blue-text">Let's get you up and running!</div>
-                    </div>
-                    <!-- <div id="hello1"></div> -->
-                    <div id="login-form-block" class="form-block">
-                        <form method="POST" action="" onsubmit="loadNextPage();return false;">
-                            <div class="text-input"><input type="text" name="login_email" id="login_email" value="email@reisystems.com" /></div>
-                            <div class="text-input"><input type="password" name="login_password" id="login_password" value="password" /></div>
-                            <div class="submit-button"><input type="submit" value="log in" /></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+				<div id="login-container" class="login-container">
+					<div class="main-region">
+						<div id="login-blurb-block" class="blurb-block">
+							<div class="huge-hello">Hello,</div>
+							<div>welcome to REI Systems.</div>
+							<div>We're excited to have you on board.</div>
+							<div class="blue-text">Let's get you up and running!</div>
+						</div>
+						<!-- <div id="hello1"></div> -->
+						<div id="login-form-block" class="form-block">
+							<form method="POST" action="" onsubmit="loadNextPage();return false;">
+								<div class="text-input"><input type="text" name="login_email" id="login_email" value="email@reisystems.com" /></div>
+								<div class="text-input"><input type="password" name="login_password" id="login_password" value="password" /></div>
+								<div class="submit-button"><input type="submit" value="log in" /></div>
+							</form>
+						</div>
+					</div>
+				</div>
             </div>
 			<div id="step-1" class="step">
 				<div class="intro-blurb-block blurb-block">
-					<div class="avatar">
-						<img src="../images/profile_photo.png" />
+					<div class="avatar size440x330">
+						<div id="webcam-frame"><img src="../images/circle.png"></div>
+						<div id="change-dialog">
+							<div>Change Photo!</div>
+						</div>
+						<div id="stored-picture"><img src="../images/cman_profile.jpg"></div>
+						<div id="webcam" class="size440x330"></div>
+						<div><select id="popup-webcam-cams"></select></div>
+						<div>
+							<input id="popup-webcam-take-photo" type="button" disabled="disabled" value="Take a photo" style="display:none" />
+						</div>
 					</div>
-					<div class="huge-welcome">Hello, <span class="blue-text" id="blue-text-name"></span></div>
+
+					<div class="huge-welcome">Hello, <span class="blue-text">David!</span></div>
 					<div class="blurb">
 						We know you're new here, and we want to make your first steps as painless as possible. Just in case
 						you didn't already know, you're the new <span class="blue-text" id="blue-text-title"></span>
@@ -88,6 +101,7 @@
 						<div class="submit-button"><input class="continue--" type="submit" value="continue" /></div>
 					</form>
 				</div>
+				<p class="webcam-error"></p>
 			</div>
 
 			<div id="step-2" class="step">
