@@ -107,25 +107,39 @@
 			</div>
 			<?php // Checklist ?>
 			<div id="step-2" class="step">
-				<div class="column-1">
-					<div class="checklist-blurb-block blurb-block">
-						<form>
-							<div class="field-group">Software</div>
+				<form>
+					<div class="column-1">
+						<div class="checklist-blurb-block blurb-block">
+							<div class="field-group">Software<span class="subtext">Subtext here</span></div>
 							<div class="checkbox-input"><label for="photoshop"><input type="checkbox" name="photoshop" id="photoshop" value="Adobe Photoshop CS6">Adobe Photoshop CS6</label></div>
 							<div class="checkbox-input"><label for="illustrator"><input type="checkbox" name="illustrator" id="illustrator" value="Adobe Illustrator CS6">Adobe Illustrator CS6</label></div>
 							<div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign" value="Adobe InDesign CS6">Adobe InDesign CS6</label></div>
-						</form>
+						</div>
+						<div class="checklist-blurb-block blurb-block">
+							<div class="field-group">Your gear</div>
+							<div class="checkbox-input"><label for="laptop"><input type="checkbox" name="laptop" id="laptop" value="Laptop - you can pick Mac or PC!">Laptop - you can pick Mac or PC!</label></div>
+							<div class="checkbox-input"><label for="othergear"><input type="checkbox" name="othergear" id="othergear" value="Some other gear">Some other gear</label></div>
+							<div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign" value="Adobe InDesign CS6">Adobe InDesign CS6</label></div>
+						</div>
 					</div>
-					
-				</div>
-				<div class="column-2">
-
-				</div>
-				<div class="checklist-form-block form-block">
-					<form>
+					<div class="column-2">
+						<div class="checklist-blurb-block blurb-block">
+							<div class="field-group">Software<span class="subtext">Subtext here</span></div>
+							<div class="checkbox-input"><label for="photoshop"><input type="checkbox" name="photoshop" id="photoshop" value="Adobe Photoshop CS6">Adobe Photoshop CS6</label></div>
+							<div class="checkbox-input"><label for="illustrator"><input type="checkbox" name="illustrator" id="illustrator" value="Adobe Illustrator CS6">Adobe Illustrator CS6</label></div>
+							<div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign" value="Adobe InDesign CS6">Adobe InDesign CS6</label></div>
+						</div>
+						<div class="checklist-blurb-block blurb-block">
+							<div class="field-group">Your gear</div>
+							<div class="checkbox-input"><label for="laptop"><input type="checkbox" name="laptop" id="laptop" value="Laptop - you can pick Mac or PC!">Laptop - you can pick Mac or PC!</label></div>
+							<div class="checkbox-input"><label for="othergear"><input type="checkbox" name="othergear" id="othergear" value="Some other gear">Some other gear</label></div>
+							<div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign" value="Adobe InDesign CS6">Adobe InDesign CS6</label></div>
+						</div>
+					</div>
+					<div class="checklist-form-block form-block">
 						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
-					</form>
-				</div>
+					</div>
+				</form>
 			</div>
 
 			<div id="step-3" class="step">
