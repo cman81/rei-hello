@@ -162,6 +162,9 @@
 						answer any questions you may have. Starting today, you'll report to <span class="blue-text" id="blue-text-resource-mgr"></span>.
                         You'll be working on the Open Government team which is led by <span class="blue-text">Amit Yadav</span>.
 					</div>
+					<div style="margin:0 auto;width:700px;">
+					<div id="handwritten">Don't worry about writing this down, we'll email it to you.</div>
+					</div>
 				</div>
 				<div class="intro-form-block form-block">
                     <form method="POST" action="" onsubmit="loadNextPage2();return false;">
