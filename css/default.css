@@ -69,10 +69,11 @@ body {
     background-image:url('../images/arrow.png')
     background-repeat:no-repeat;
     background-position:top left;
-    position:absolute; /*need to change this to relative.*/
-    top:400px;
-    left:700px;
+    position:relative;
+    top:0px;
+    left:500px;
     padding:15px 0 0 30px;
+    margin:-20px 0 -40px 0;
     -webkit-transform:rotate(-5deg);
     -moz-transform:rotate(-5deg);
     -o-transform:rotate(-5deg);
