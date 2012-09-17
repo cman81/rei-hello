@@ -65,7 +65,7 @@
 ?>
 <html>
 	<head>
-		<title>Hello.</title>
+		<title>Hello,</title>
 		<link href='http://fonts.googleapis.com/css?family=Bitter:700,400italic,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="../css/default.css" />
@@ -140,19 +140,8 @@
             <?php // Welcome ?>
 			<div id="step-1" class="step">
 				<div class="intro-blurb-block blurb-block">
-					<div class="avatar size440x330">
-						<div id="webcam-frame"><img src="../images/circle.png"></div>
-						<div id="change-dialog">
-							<div>Change Photo!</div>
-						</div>
-						<div id="stored-picture"><img src="../images/profile_photo2.png"></div>
-						<div id="webcam" class="size440x330"></div>
-						<div><select id="popup-webcam-cams"></select></div>
-						<div>
-							<input id="popup-webcam-take-photo" type="button" disabled="disabled" value="Take a photo" style="display:none" />
-						</div>
-					</div>
-
+				</div>
+				<div class="intro-blurb-block blurb-block">
 					<div class="huge-welcome">Hello, <span class="blue-text" id="blue-text-name"></span></div>
 					<div class="blurb">
 						We know you're new here, and we want to make your first steps as painless as possible. Just in case
@@ -172,6 +161,48 @@
 					</form>
 				</div>
 				<p class="webcam-error"></p>
+			</div>
+			<?php // Network ?>
+			<div id="step-1-5" class="step">
+				<div class="network-blurb-block blurb-block">
+					<div class="avatars">
+						<div id="avatar-program-manager">
+							<div class="name">Amit Yadav</div>
+							<div class="title">Program Manager</div>
+							<div class="avatar small"><img src="../uploads/amit.png" /></div>
+						</div>
+						<div id="avatar-program-coordinator">
+							<div class="name">Anita Kozak</div>
+							<div class="title">Program Coordinator</div>
+							<div class="avatar small"><img src="../uploads/anita.png" /></div>
+						</div>
+						<div id="avatar-resource-manager">
+							<div class="name">Tim Molinaro</div>
+							<div class="title">Resource Manager</div>
+							<div class="avatar small"><img src="../uploads/tim.png" /></div>
+						</div>
+						<div id="avatar-mentor">
+							<div class="name">Zerihun Tegegn</div>
+							<div class="title">Mentor</div>
+							<div class="avatar small"><img src="../uploads/z.png" /></div>
+						</div>
+						<div id="avatar-everyone-else">
+							<div class="name">Everyone Else</div>
+							<div class="avatar small"><img src="../uploads/other.png" /></div>
+						</div>
+						<div id="avatar-self" large"><img src="../images/profile_photo.png" /></div>
+					</div>
+
+					<div class="blurb">
+						Let's introduce you to a few import team members. Click on any of them
+						to send them a quick "Hello" email.
+					</div>
+				</div>
+				<div class="intro-form-block form-block">
+					<form method="POST" action="" onsubmit="return false;">
+						<div class="submit-button"><input class="continue" type="submit" value="continue" /></div>
+					</form>
+				</div>
 			</div>
 			<?php // Checklist ?>
 			<div id="step-2" class="step">
@@ -237,7 +268,7 @@
 						<div class="text-input"><input type="text" name="birth_city" id="birth_city" value="Birth City"></div>
 						<div class="text-input"><input type="text" name="birth_state_country" id="birth_state_country" value="Birth State or Country"></div>
 						<div class="field-group">Date of Birth</div>
-						<div class="text-input"><input type="text" name="dob" id="dob" value="Date of Birth (Calendar Widget Instead?)"></div>
+						<div class="text-input"><input type="text" name="dob" id="dob" value="Date of Birth"></div>
 						<div class="field-group">Phone Numbers</div>
 						<div class="text-input"><input type="text" name="phone_day" id="phone_day" value="Daytime Phone"></div>
 						<div class="text-input"><input type="text" name="phone_night" id="phone_night" value="Nighttime Phone"></div>
