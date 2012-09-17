@@ -266,6 +266,7 @@
 				<div id="paperwork-blurb-block" class="blurb-block">
 					<div class="instruction blue-text">Let's fill out some paperwork</div>
 					<div>Don't worry, we'll walk you through it.</div>
+
 				</div>
 				<div id="paperwork-form-block" class="form-block">
 					<form>
@@ -314,26 +315,37 @@
 			</div>
 
 			<div id="step-5" class="step step-with-overlay">
-				<div class="intro-blurb-block blurb-block">
-					<div class="avatar">
-						<img src="../images/profile_photo.png" />
-					</div>
-					<div class="huge-welcome">OPPA <span class="blue-text">GANGNAM STYLE! 5</span></div>
-					<div class="blurb">
-						We know you're new here, and we want to make your first steps as painless as possible. Just in case
-						you didn't already know, you're the new <span class="blue-text">Associate Database Engineer</span>
-						on the <span class="blue-text">NYC Checkbook</span> project in the <span class="blue-text">Open
-						Government</span> program. Your mentor will be <span class="blue-text">Anita Kozak</span>; she can
-						answer any questions you may have. Starting today, you'll report to <span class="blue-text">Amanandan
-						Dhami</span>. You'll be working on the Open Government team which is led by <span class="blue-text">Amit
-						Yadav</span>.
-					</div>
-				</div>
-				<div class="intro-form-block form-block">
-					<form>
-						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
-					</form>
-				</div>
+                <div class="intro-blurb-block blurb-block" id='resources-container'>
+
+                    <div class="instruction blue-text">Here are some links to get you started!</div>
+                    <div class='res-title'>Feel free to ping <a href='mailto:akozak@reisystems.com'>Anita</a> if you still have any questions.</div>
+                    <div class='column-1 column'>
+                        <div class='res-header'>Admin</div>
+                        <div class='blue-text'>Deltek</div>
+                        <div class='blue-text'>OMB Calendar</div>
+                        <div class='blue-text'>Portal</div>
+                        <div class='blue-text'>Vacation WFH/Policies</div>
+                        <div class='blue-text'>Email signature policy</div>
+                        <div class='blue-text'>Work policies</div>
+                    </div>
+                    <div class='column-2 column'>
+                        <div class='res-header'>Technical</div>
+                        <div class='blue-text'>VPN access</div>
+                        <div class='blue-text'>Software requirements</div>
+                        <div class='blue-text'>W3Schools</div>
+                        <div class='blue-text'>Drupalize.me</div>
+                        <div class='blue-text'>php.net</div>
+                        <div class='blue-text'>github.com</div>
+                    </div>
+
+
+                <div class="intro-form-block form-block">
+                    <form>
+                        <div class="submit-button"><input class="continue" type="button" value="continue" /></div>
+                    </form>
+                </div>
+
+                </div>
 				<?= $checklist_html ?>
 			</div>
 
