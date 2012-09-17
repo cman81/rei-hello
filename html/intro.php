@@ -217,7 +217,7 @@
 				</div>
 			</div>
 
-			<div id="step-3" class="step">
+			<div id="step-3" class="step step-with-overlay">
 				<div id="paperwork-blurb-block" class="blurb-block">
 					<div class="instruction blue-text">Let's fill out some paperwork</div>
 					<div>Don't worry, we'll walk you through it.</div>
@@ -244,7 +244,7 @@
 				<?= $checklist_html ?>
 			</div>
 
-			<div id="step-4" class="step">
+			<div id="step-4" class="step step-with-overlay">
 				<div class="intro-blurb-block blurb-block">
 					<div class="avatar">
 						<img src="../images/profile_photo.png" />
@@ -268,7 +268,7 @@
 				<?= $checklist_html ?>
 			</div>
 
-			<div id="step-5" class="step">
+			<div id="step-5" class="step step-with-overlay">
 				<div class="intro-blurb-block blurb-block">
 					<div class="avatar">
 						<img src="../images/profile_photo.png" />
@@ -292,7 +292,7 @@
 				<?= $checklist_html ?>
 			</div>
 
-			<div id="step-6" class="step">
+			<div id="step-6" class="step step-with-overlay">
 				<div class="intro-blurb-block blurb-block">
 					<div class="avatar">
 						<img src="../images/profile_photo.png" />

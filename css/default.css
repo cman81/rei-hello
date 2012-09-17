@@ -243,6 +243,9 @@ body {
 #main-region .step {
     display: none;
 }
+#main-region .step-with-overlay {
+    margin-bottom: 200px;
+}
 
 .size440x330 { width:440px; height:330px;}
 .webcam-container object {border:1px solid #000;}
@@ -355,6 +358,9 @@ body {
 .checklist-footer-container {
     margin: 0 auto;
     background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width:100%;
 }
 .checklist-footer {
     width: 600px;

@@ -101,6 +101,11 @@ $(document).ready(function() {
 
 	$('.checklist-footer .toggle').click(function(e) {
 		$('.checklist-footer').slideToggle();
+		if ($('#main-region .step-with-overlay').css('margin-bottom') == '200px') {
+			$('#main-region .step-with-overlay').css('margin-bottom', '100px');
+		} else {
+			$('#main-region .step-with-overlay').css('margin-bottom', '200px');
+		}
 	});
 });
 
