@@ -48,8 +48,12 @@ $(document).ready(function() {
   	// Intro step
 	$('#login_email').focus(function(e) {
 		if ($(this).val() == 'email@reisystems.com') {
-			$(this).val('@reisystems.com');
-			setCaretToPos(this, 0);
+			// TODO: this is not working in Chrome, so we're just clearing for now
+			/*
+				$(this).val('@reisystems.com');
+				setCaretToPos(this, 0);
+			*/
+			$(this).val('');
 		}
 	});
 	$('#login_email').blur(function(e) {
