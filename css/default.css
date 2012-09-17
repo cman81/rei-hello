@@ -447,3 +447,23 @@ body {
             position: relative;
             width: 100%;
         }
+
+
+#network-blurb-block {
+    font-family: "Bitter", Georgia, serif;
+}
+    #network-blurb-block .text-left,
+    #network-blurb-block .text-right { width: 250px }
+    #network-blurb-block .text-top { width: 150px; }
+    #network-blurb-block .text-left .avatar { float: right; }
+    #network-blurb-block .text-left .text-container {float: left; }
+
+    #network-blurb-block .text-right .avatar { float: left; }
+    #network-blurb-block .text-right .text-container {float: right; }
+
+    #network-blurb-block .name {
+        font-size: 1.5em;
+    }
+    #network-blurb-block .title {
+        font-size: 1em;
+    }

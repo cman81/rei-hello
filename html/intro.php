@@ -167,41 +167,59 @@
 					</div>
 				</div>
 				<div class="intro-form-block form-block">
-                    <!--<form method="POST" action="" onsubmit="loadNextPage2();return false;">-->
-						<div class="submit-button"><input class="continue" type="submit" value="continue" /></div>
+                    <form method="POST" action="" onsubmit="loadNextPage2();return false;">
+						<div class="submit-button"><input class="continue--" type="submit" value="continue" /></div>
 					</form>
 				</div>
 				<p class="webcam-error"></p>
 			</div>
 			<?php // Network ?>
 			<div id="step-1-5" class="step">
-				<div class="network-blurb-block blurb-block">
+				<div id="network-blurb-block" class="blurb-block">
 					<div class="avatars">
-						<div id="avatar-program-manager">
-							<div class="name">Amit Yadav</div>
-							<div class="title">Program Manager</div>
+						<div id="avatar-program-manager" class="text-left">
+							<div class="text-container">
+								<div class="name blue-text">Amit Yadav</div>
+								<div class="title">Program Manager</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/amit.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-program-coordinator">
-							<div class="name">Anita Kozak</div>
-							<div class="title">Program Coordinator</div>
+						<div id="avatar-program-coordinator" class="text-left">
+							<div class="text-container">
+								<div class="name blue-text">Anita Kozak</div>
+								<div class="title">Program Coordinator</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/anita.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-resource-manager">
-							<div class="name">Tim Molinaro</div>
-							<div class="title">Resource Manager</div>
+						<div id="avatar-resource-manager" class="text-top">
+							<div class="text-container">
+								<div class="floater"></div>
+								<div class="content">
+									<div class="name blue-text">Tim Molinaro</div>
+									<div class="title">Resource Manager</div>
+								</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/tim.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-mentor">
-							<div class="name">Zerihun Tegegn</div>
-							<div class="title">Mentor</div>
+						<div id="avatar-mentor" class="text-right">
+							<div class="text-container">
+								<div class="name blue-text">Zerihun Tegegn</div>
+								<div class="title">Mentor</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/z.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-everyone-else">
-							<div class="name">Everyone Else</div>
+						<div id="avatar-everyone-else" class="text-right">
+							<div class="text-container">
+								<div class="name blue-text">Everyone Else</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/other.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-self" large"><img src="../images/profile_photo.png" /></div>
+						<div id="avatar-self"><img src="../images/profile_photo.png" /></div>
 					</div>
 
 					<div class="blurb">

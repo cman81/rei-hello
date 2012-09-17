@@ -50,31 +50,8 @@ function loadNextPage(){
 }
 
 function loadNextPage2(){
-    var xmlhttp;
-    if (window.XMLHttpRequest)
-        xmlhttp=new XMLHttpRequest();
-    else
-        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-
-    //var uname = document.getElementById('login_email').value;
-    //var passwd = document.getElementById('login_password').value;
-    var vars = "uname=teststh&passwd=foobar";
-
-    xmlhttp.onreadystatechange=function(){
-        if (xmlhttp.readyState==4 && xmlhttp.status==200){
-            //document.getElementById("hello1").innerHTML=xmlhttp.responseText;
-            $('#blue-text-name').html(xmlhttp.responseText);
-			var currentStep = $('.step.active').attr('id').substr(-1);
-			var nextStep = (parseInt(currentStep)+1).toString();
-			$('#step-'+currentStep).removeClass('active').hide("slide", { direction: "left" }, 200);
-			$('#step-'+nextStep).addClass('active').fadeIn(600);
-			$('#nav_'+nextStep).addClass('active');
-		}
-    }
-
-    xmlhttp.open("POST","../content.php",true);
-    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xmlhttp.send(vars);
+	$('#step-1').removeClass('active').hide("slide", { direction: "left" }, 200);
+	$('#step-1-5').addClass('active').fadeIn(600);
 }
 
 function loadNetwork(){
