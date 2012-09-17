@@ -9,7 +9,6 @@ body {
 #login-floater {
     position: relative;
     float: left;
-    height: 50%;
     width: 100%;
     margin-bottom: -225px;
 }
@@ -67,13 +66,14 @@ body {
     font-variant:italic;
     font-size:0.9em;
     width:120px;
-    background-image:url('../images/arrow.png')
+    background-image:url('../images/arrow.png');
     background-repeat:no-repeat;
     background-position:top left;
-    position:absolute; /*need to change this to relative.*/
-    top:400px;
-    left:700px;
+    position:relative;
+    top:0px;
+    left:500px;
     padding:15px 0 0 30px;
+    margin:-20px 0 -40px 0;
     -webkit-transform:rotate(-5deg);
     -moz-transform:rotate(-5deg);
     -o-transform:rotate(-5deg);
@@ -167,6 +167,7 @@ body {
 .nav-region {
     width: 690px;
     margin: 0 auto;
+    padding-left: 70px;
 }
 
 .nav-container {
@@ -242,6 +243,9 @@ body {
 }
 #main-region .step {
     display: none;
+}
+#main-region .step-with-overlay {
+    margin-bottom: 200px;
 }
 
 .size440x330 { width:440px; height:330px;}
@@ -358,3 +362,71 @@ body {
 #paperwork-form-block .text-input input {
     width: 375px;
 }
+.checklist-footer-container {
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    opacity: 0.9;
+}
+.checklist-footer {
+    width: 600px;
+    margin: 0 auto;
+}
+    .checklist-footer .title-row {
+        padding: 15px;
+    }
+
+        .checklist-footer .title-row .title {
+            margin-left: 5px;
+            font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1em;
+            color: #666666;
+            float: left;
+        }
+        .checklist-footer .title-row .toggle {
+            float: right;
+            cursor: pointer;
+        }
+.checklist-footer-expanded {
+}
+    .checklist-footer-expanded .progress-row {
+    }
+        .checklist-footer-expanded .progress-row .partial-item { background-color: #91e2ec }
+        .checklist-footer-expanded .progress-row .complete-item { background-color: #00cbe4 }
+        .checklist-footer-expanded .progress-row .empty-item { background-color: #b8b8b8 }
+        .checklist-footer-expanded .progress-row .item {
+            float: left;
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            color: #ffffff;
+            border-radius:500px;
+        }
+            .checklist-footer-expanded .progress-row .item .progress {
+                font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+                font-weight: lighter;
+                font-size: 1.25em;
+            }
+            .checklist-footer-expanded .progress-row .item .category {
+                font-family: "Bitter", Georgia, serif;
+                font-weight: bold;
+                font-size: 0.75em;
+            }
+.checklist-footer-expanded .progress-row .floater {
+            position: relative;
+            float: left;
+            height: 50%;
+            width: 100%;
+            margin-bottom: -22px;
+        }
+        .checklist-footer-expanded .progress-row .container {
+            clear: both;
+            height: 44px;
+            position: relative;
+            width: 100%;
+        }
