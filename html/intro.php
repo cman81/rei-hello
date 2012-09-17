@@ -140,8 +140,19 @@
             <?php // Welcome ?>
 			<div id="step-1" class="step">
 				<div class="intro-blurb-block blurb-block">
-				</div>
-				<div class="intro-blurb-block blurb-block">
+					<div class="avatar size440x330">
+						<div id="webcam-frame"><img src="../images/circle.png"></div>
+						<div id="change-dialog">
+							<div>Change Photo!</div>
+						</div>
+						<div id="stored-picture"><img src="../images/profile_photo2.png"></div>
+						<div id="webcam" class="size440x330"></div>
+						<div><select id="popup-webcam-cams"></select></div>
+						<div>
+							<input id="popup-webcam-take-photo" type="button" disabled="disabled" value="Take a photo" style="display:none" />
+						</div>
+					</div>
+
 					<div class="huge-welcome">Hello, <span class="blue-text" id="blue-text-name"></span></div>
 					<div class="blurb">
 						We know you're new here, and we want to make your first steps as painless as possible. Just in case

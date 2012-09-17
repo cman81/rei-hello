@@ -48,8 +48,9 @@ $(document).ready(function() {
 			}
 
 			setTimeout(function() {
-				$("#popup-webcam-take-photo").removeAttr('disabled');
-				$("#popup-webcam-take-photo").show();
+				// TODO: uncomment this once backend supports saving photos
+//				$("#popup-webcam-take-photo").removeAttr('disabled');
+//				$("#popup-webcam-take-photo").show();
 				cameraApi.setCamera('0');
 			}, 750);
 
