@@ -167,6 +167,7 @@ body {
 .nav-region {
     width: 690px;
     margin: 0 auto;
+    padding-left: 70px;
 }
 
 .nav-container {
