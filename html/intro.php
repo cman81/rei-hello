@@ -174,7 +174,7 @@
 				<p class="webcam-error"></p>
 			</div>
 			<?php // Network ?>
-			<div id="step-1-5" class="step">
+			<div id="step-1b" class="step">
 				<div id="network-blurb-block" class="blurb-block">
 					<div class="avatars">
 						<div id="avatar-program-manager" class="text-left">
@@ -308,13 +308,18 @@
 			</div>
 
 			<div id="step-4" class="step step-with-overlay">
-				<div style="width:670px;margin:0 auto;">
+				<div style="width:670px;margin:0 auto;pading: 0 0 0 40px;">
 				<a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../images/drupal.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
 				<a href="https://www.youtube.com/watch?v=ylMqfFIebuw" target="_blank"><img src="../images/jira.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
 				<a href="https://www.youtube.com/watch?v=GUNJqFwzrjY&feature=fvst" target="_blank"><img src="../images/skype.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
 				<a href="https://www.youtube.com/watch?v=TPY8UwlTIc0" target="_blank"><img src="../images/github.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
 				<a href="https://www.youtube.com/watch?v=ne7wlDSg_D8" target="_blank"><img src="../images/mamp.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
 				<a href="https://www.youtube.com/watch?v=4iGuZRvrRP0" target="_blank"><img src="../images/adobe.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
+				</div>
+				<div class="intro-form-block form-block">
+					<form>
+						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
+					</form>
 				</div>
 				<?= $checklist_html ?>
 			</div>
