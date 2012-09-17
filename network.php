@@ -18,7 +18,7 @@
 	$link = mysql_connect('localhost','hello','Hello_Team') or die('Could not connect to db');
 	mysql_select_db("hellodb", $link) or die('Could not select db');
 
-	// get the uids of the logged-in
+	// get the uids of the logged-in user's main network contacts
 		$query = "
 			SELECT prog_mgr_id, resource_mgr_id, mentor_id, prog_coord_id
 			FROM employees e

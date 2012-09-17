@@ -110,3 +110,30 @@ function loadNetwork(){
 	xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xmlhttp.send(vars);
 }
+
+function loadAllTeam(){
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+		xmlhttp=new XMLHttpRequest();
+	else
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+
+	var vars = "uid=" + $('#hidden-user-id').html();
+
+	xmlhttp.onreadystatechange=function(){
+		if (xmlhttp.readyState==4 && xmlhttp.status==200){
+			var returnJson = eval("(" + xmlhttp.responseText + ")");
+
+			for (i in returnJson) {
+				var targetId = positionMap[returnJson[i].position];
+				$('#' + targetId + ' .name').html(returnJson[i].first_name + " " + returnJson[i].last_name);
+				$('#' + targetId + ' .title').html(returnJson[i].position);
+				$('#' + targetId + ' .avatar').html(returnJson[i].avatar_path);
+			}
+		}
+	}
+
+	xmlhttp.open("POST","../allTeam.php",true);
+	xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xmlhttp.send(vars);
+}
