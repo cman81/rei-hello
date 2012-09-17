@@ -75,6 +75,96 @@ $(document).ready(function() {
 			$('#login_password').val('password');
 		}
 	});
+	$('#fname').focus(function(e) {
+		if ($('#fname').val() == 'First Name') {
+			$('#fname').val('');
+		}
+	});
+	$('#fname').blur(function(e) {
+		if ($('#fname').val() == '') {
+			$('#fname').val('First Name');
+		}
+	});
+	$('#mname').focus(function(e) {
+		if ($('#mname').val() == 'Middle Name') {
+			$('#mname').val('');
+		}
+	});
+	$('#mname').blur(function(e) {
+		if ($('#mname').val() == '') {
+			$('#mname').val('Middle Name');
+		}
+	});
+	$('#lname').focus(function(e) {
+		if ($('#lname').val() == 'Last Name') {
+			$('#lname').val('');
+		}
+	});
+	$('#lname').blur(function(e) {
+		if ($('#lname').val() == '') {
+			$('#lname').val('Last Name');
+		}
+	});
+	$('#ssn').focus(function(e) {
+		if ($('#ssn').val() == 'SSN #') {
+			$('#ssn').val('');
+		}
+	});
+	$('#ssn').blur(function(e) {
+		if ($('#ssn').val() == '') {
+			$('#ssn').val('SSN #');
+		}
+	});
+	$('#birth_city').focus(function(e) {
+		if ($('#birth_city').val() == 'Birth City') {
+			$('#birth_city').val('');
+		}
+	});
+	$('#birth_city').blur(function(e) {
+		if ($('#birth_city').val() == '') {
+			$('#birth_city').val('Birth City');
+		}
+	});
+	$('#birth_state_country').focus(function(e) {
+		if ($('#birth_state_country').val() == 'Birth State or Country') {
+			$('#birth_state_country').val('');
+		}
+	});
+	$('#birth_state_country').blur(function(e) {
+		if ($('#birth_state_country').val() == '') {
+			$('#birth_state_country').val('Birth State or Country');
+		}
+	});
+	$('#dob').focus(function(e) {
+		if ($('#dob').val() == 'Date of Birth') {
+			$('#dob').val('');
+		}
+	});
+	$('#dob').blur(function(e) {
+		if ($('#dob').val() == '') {
+			$('#dob').val('Date of Birth');
+		}
+	});
+	$('#phone_day').focus(function(e) {
+		if ($('#phone_day').val() == 'Daytime Phone') {
+			$('#phone_day').val('');
+		}
+	});
+	$('#phone_day').blur(function(e) {
+		if ($('#phone_day').val() == '') {
+			$('#phone_day').val('Daytime Phone');
+		}
+	});
+	$('#phone_night').focus(function(e) {
+		if ($('#phone_night').val() == 'Nighttime Phone') {
+			$('#phone_night').val('');
+		}
+	});
+	$('#phone_night').blur(function(e) {
+		if ($('#phone_night').val() == '') {
+			$('#phone_night').val('Nighttime Phone');
+		}
+	});
 
 	// Checklist step
 	$('.checklist-blurb-block .checkbox-input label').each(function() {

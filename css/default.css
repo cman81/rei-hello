@@ -66,13 +66,14 @@ body {
     font-variant:italic;
     font-size:0.9em;
     width:120px;
-    background-image:url('../images/arrow.png')
+    background-image:url('../images/arrow.png');
     background-repeat:no-repeat;
     background-position:top left;
-    position:absolute; /*need to change this to relative.*/
-    top:400px;
-    left:700px;
+    position:relative;
+    top:0px;
+    left:500px;
     padding:15px 0 0 30px;
+    margin:-20px 0 -40px 0;
     -webkit-transform:rotate(-5deg);
     -moz-transform:rotate(-5deg);
     -o-transform:rotate(-5deg);
@@ -322,6 +323,12 @@ body {
         color: #00cce4;
         margin-bottom: 10px;
     }
+    .checklist-blurb-block .field-group .subtext {
+        color: #ccc;
+        font-size: 12px;
+        font-weight: normal;
+        padding-left: 8px;
+    }
     .checklist-blurb-block .checkbox-input {
         margin-bottom: 10px;
     }
@@ -361,6 +368,7 @@ body {
     position: fixed;
     bottom: 0;
     width:100%;
+    opacity: 0.9;
 }
 .checklist-footer {
     width: 600px;
@@ -397,6 +405,7 @@ body {
             height: 80px;
             text-align: center;
             color: #ffffff;
+            border-radius:500px;
         }
             .checklist-footer-expanded .progress-row .item .progress {
                 font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
