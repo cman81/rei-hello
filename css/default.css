@@ -460,8 +460,6 @@ body {
             position: relative;
             width: 100%;
         }
-
-
 #network-blurb-block {
     font-family: "Bitter", Georgia, serif;
 }
@@ -478,7 +476,7 @@ body {
     }
     #avatar-program-manager {
         position: absolute;
-        top: 90px;
+        top: 900px;
         left: 90px;
     }
     #avatar-mentor {
@@ -507,21 +505,43 @@ body {
     #network-blurb-block .text-left .avatar { float: right; }
     #network-blurb-block .text-left .text-container {float: left; }
 
-    #network-blurb-block .text-right .avatar { float: left; }
-    #network-blurb-block .text-right .text-container {float: right; }
+#network-blurb-block .text-right .avatar { float: left; }
+#network-blurb-block .text-right .text-container {float: right; }
 
-    .text-left .text-container,
-    .text-right .text-container {
-        margin-top: 37px;
-    }
-    #avatar-resource-manager .text-container {
-        margin-bottom: 10px;
-    }
+.text-left .text-container,
+.text-right .text-container {
+    margin-top: 37px;
+}
+#avatar-resource-manager .text-container {
+    margin-bottom: 10px;
+}
 
 
-    #network-blurb-block .name {
-        font-size: 1.5em;
-    }
-    #network-blurb-block .title {
-        font-size: 1em;
-    }
+#network-blurb-block .name {
+    font-size: 1.5em;
+}
+#network-blurb-block .title {
+    font-size: 1em;
+}
+.div-table-container{
+    width:50%;
+    text-align: center;
+}
+#resources-container{
+    width:700px;
+    margin:0 auto 0 auto;
+}
+
+#resources-container .column div{
+    margin-bottom: 8px;
+}
+.res-header{
+    font-style: italic;
+    font-size: 15px;
+}
+#resources-container .res-title{
+    margin-bottom: 10px;
+}
+#resources-container .submit-button{
+    margin-top: 250px;
+}
