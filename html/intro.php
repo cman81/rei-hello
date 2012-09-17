@@ -99,7 +99,7 @@
 				
 				<div id="nav_4" class="nav-container">
 					<div class="nav-step">4</div>
-					<div class="label">Tutorials</div>
+					<div class="label">Training</div>
 				</div>
 				
 				<div id="nav_5" class="nav-container">
