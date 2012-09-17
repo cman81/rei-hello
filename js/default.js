@@ -98,6 +98,10 @@ $(document).ready(function() {
 				$(this).children().removeAttr('checked');
 			});
 	});
+
+	$('.checklist-footer .toggle').click(function(e) {
+		$('.checklist-footer').slideToggle();
+	});
 });
 
 function switchStep(step) {

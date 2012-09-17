@@ -356,15 +356,15 @@ body {
     margin: 0 auto;
     background-color: #f1f1f1;
 }
-.checklist-footer-expanded {
+.checklist-footer {
     width: 600px;
     margin: 0 auto;
 }
-    .checklist-footer-expanded .title-row {
+    .checklist-footer .title-row {
         padding: 15px;
     }
 
-        .checklist-footer-expanded .title-row .title {
+        .checklist-footer .title-row .title {
             margin-left: 5px;
             font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-serif;
             font-weight: bold;
@@ -373,9 +373,12 @@ body {
             color: #666666;
             float: left;
         }
-        .checklist-footer-expanded .title-row .toggle {
+        .checklist-footer .title-row .toggle {
             float: right;
+            cursor: pointer;
         }
+.checklist-footer-expanded {
+}
     .checklist-footer-expanded .progress-row {
     }
         .checklist-footer-expanded .progress-row .partial-item { background-color: #91e2ec }

@@ -1,7 +1,7 @@
 <?php
 	$checklist_html = '
 		<div class="checklist-footer-container">
-			<div class="checklist-footer-expanded">
+			<div class="checklist-footer checklist-footer-expanded">
 				<div class="title-row">
 					<div class="title">checklist overview</div>
 					<div class="toggle"><img src="../images/minus_icon.png"></div>
@@ -53,10 +53,11 @@
 					<div class="clear"></div><!-- intentionally blank -->
 				</div>
 			</div>
-			<div class="checklist-footer-collapsed" style="display: none">
+			<div class="checklist-footer checklist-footer-collapsed" style="display: none">
 				<div class="title-row">
 					<div class="title">checklist overview</div>
 					<div class="toggle"><img src="../images/plus_icon.png"></div>
+					<div class="clear"></div><!-- intentionally blank -->
 				</div>
 			</div>
 		</div>
