@@ -99,7 +99,7 @@
 				
 				<div id="nav_4" class="nav-container">
 					<div class="nav-step">4</div>
-					<div class="label">Tutorials</div>
+					<div class="label">Training</div>
 				</div>
 				
 				<div id="nav_5" class="nav-container">
@@ -209,37 +209,37 @@
                 <div id='checklist-container'></div>
 				<div class="column-1">
 					<div class="checklist-blurb-block blurb-block checklist-organiser">
-                            <div class="field-group">Software</div>
+                            <div class="field-group">Software<span class="subtext">Subtext here</span><span class="subtext">Subtext here</span></div>
                             <div class="checkbox-input"><label for="photoshop"><input type="checkbox" name="photoshop" id="photoshop">Adobe Photoshop CS6</label></div>
                             <div class="checkbox-input"><label for="illustrator"><input type="checkbox" name="illustrator" id="illustrator">Adobe Illustrator CS6</label></div>
                             <div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign">Adobe InDesign CS6</label></div>
                         <div class="checkbox-input"><label for="word"><input type="checkbox" name="word" id="word">Microsoft Word for Mac 2011</label></div>
 					</div>
                     <div class="checklist-blurb-block blurb-block checklist-organiser">
-                        <div class="field-group">Your Gear</div>
+                        <div class="field-group">Your Gear<span class="subtext">Subtext here</span></div>
                         <div class="checkbox-input"><label for="laptop"><input type="checkbox" name="laptop" id="laptop">Laptop -- you can pick Mac or PC!</label></div>
                     </div>
                     <div class="checklist-blurb-block blurb-block checklist-organiser">
-                        <div class="field-group">Program</div>
+                        <div class="field-group">Program<span class="subtext">Subtext here</span></div>
                         <div class="checkbox-input"><label for="jira"><input type="checkbox" name="jira" id="jira">Hooked up to Jira</label></div>
                         <div class="checkbox-input"><label for="vpn"><input type="vpn" name="illustrator" id="vpn">Have your VPN client</label></div>
                     </div>
 				</div>
 				<div class="column-2">
                     <div class="checklist-blurb-block blurb-block checklist-organiser">
-                            <div class="field-group">People</div>
+                            <div class="field-group">People<span class="subtext">Subtext here</span><span class="subtext">Subtext here</span></div>
                             <div class="checkbox-input"><label for="anita"><input type="checkbox" name="anita" id="anita">Have you met Anita Kozak?</label></div>
                             <div class="checkbox-input"><label for="amit"><input type="checkbox" name="amit" id="amit">Have you met Amit Yadav?</label></div>
                      </div>
                     <div class="checklist-blurb-block blurb-block checklist-organiser">
-                        <div class="field-group">Reading</div>
+                        <div class="field-group">Reading<span class="subtext">Subtext here</span></div>
                         <div class="checkbox-input"><label for="handbook"><input type="checkbox" name="handbook" id="handbook">Employee Handbook</label></div>
                         <div class="checkbox-input"><label for="401k"><input type="checkbox" name="401k" id="401k">401k Plan Info</label></div>
                         <div class="checkbox-input"><label for="retirement"><input type="checkbox" name="retirement" id="retirement">Retirement Plans</label></div>
                         <div class="checkbox-input"><label for="insurance"><input type="checkbox" name="insurance" id="insurance">Health Insurance</label></div>
                     </div>
                     <div class="checklist-blurb-block blurb-block checklist-organiser">
-                        <div class="field-group">Forms</div>
+                        <div class="field-group">Forms<span class="subtext">Subtext here</span></div>
                         <div class="checkbox-input"><label for="form-handbook"><input type="checkbox" name="form-handbook" id="form-handbook">Employee Handbook</label></div>
                         <div class="checkbox-input"><label for="form-401k"><input type="checkbox" name="form-401k" id="form-401k">401k Plan Info</label></div>
                         <div class="checkbox-input"><label for="form-retirement"><input type="checkbox" name="form-retirement" id="form-retirement">Retirement Plans</label></div>
@@ -327,26 +327,9 @@
 			</div>
 
 			<div id="step-6" class="step step-with-overlay">
-				<div class="intro-blurb-block blurb-block">
-					<div class="avatar">
-						<img src="../images/profile_photo.png" />
-					</div>
-					<div class="huge-welcome">OPPA <span class="blue-text">GANGNAM STYLE! 6</span></div>
-					<div class="blurb">
-						We know you're new here, and we want to make your first steps as painless as possible. Just in case
-						you didn't already know, you're the new <span class="blue-text">Associate Database Engineer</span>
-						on the <span class="blue-text">NYC Checkbook</span> project in the <span class="blue-text">Open
-						Government</span> program. Your mentor will be <span class="blue-text">Anita Kozak</span>; she can
-						answer any questions you may have. Starting today, you'll report to <span class="blue-text">Amanandan
-						Dhami</span>. You'll be working on the Open Government team which is led by <span class="blue-text">Amit
-						Yadav</span>.
-					</div>
-				</div>
-				<div class="intro-form-block form-block">
-					<form>
-						<div class="submit-button"><input id="continue" type="button" value="submit" /></div>
-					</form>
-				</div>
+				<div class="blue_bg"></div>
+				<div class="done">Congratulations, you're done!</div>
+				<div class="doneSubtext">If you forget anything or just want quick reference, you can always come back.</div>
 				<?= $checklist_html ?>
 			</div>
 

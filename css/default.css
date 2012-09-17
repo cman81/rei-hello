@@ -323,6 +323,12 @@ body {
         color: #00cce4;
         margin-bottom: 10px;
     }
+    .checklist-blurb-block .field-group .subtext {
+        color: #ccc;
+        font-size: 12px;
+        font-weight: normal;
+        padding-left: 8px;
+    }
     .checklist-blurb-block .checkbox-input {
         margin-bottom: 10px;
     }
