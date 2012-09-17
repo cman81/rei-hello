@@ -397,6 +397,7 @@ body {
             height: 80px;
             text-align: center;
             color: #ffffff;
+            border-radius:500px;
         }
             .checklist-footer-expanded .progress-row .item .progress {
                 font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
