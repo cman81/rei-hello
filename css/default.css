@@ -352,3 +352,63 @@ body {
 #paperwork-form-block .text-input input {
     width: 375px;
 }
+.checklist-footer-container {
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+.checklist-footer-expanded {
+    width: 600px;
+    margin: 0 auto;
+}
+    .checklist-footer-expanded .title-row {
+        padding: 15px;
+    }
+
+        .checklist-footer-expanded .title-row .title {
+            margin-left: 5px;
+            font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1em;
+            color: #666666;
+            float: left;
+        }
+        .checklist-footer-expanded .title-row .toggle {
+            float: right;
+        }
+    .checklist-footer-expanded .progress-row {
+    }
+        .checklist-footer-expanded .progress-row .partial-item { background-color: #91e2ec }
+        .checklist-footer-expanded .progress-row .complete-item { background-color: #00cbe4 }
+        .checklist-footer-expanded .progress-row .empty-item { background-color: #b8b8b8 }
+        .checklist-footer-expanded .progress-row .item {
+            float: left;
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            color: #ffffff;
+        }
+            .checklist-footer-expanded .progress-row .item .progress {
+                font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+                font-weight: lighter;
+                font-size: 1.25em;
+            }
+            .checklist-footer-expanded .progress-row .item .category {
+                font-family: "Bitter", Georgia, serif;
+                font-weight: bold;
+                font-size: 0.75em;
+            }
+.checklist-footer-expanded .progress-row .floater {
+            position: relative;
+            float: left;
+            height: 50%;
+            width: 100%;
+            margin-bottom: -22px;
+        }
+        .checklist-footer-expanded .progress-row .container {
+            clear: both;
+            height: 44px;
+            position: relative;
+            width: 100%;
+        }

@@ -1,3 +1,67 @@
+<?php
+	$checklist_html = '
+		<div class="checklist-footer-container">
+			<div class="checklist-footer-expanded">
+				<div class="title-row">
+					<div class="title">checklist overview</div>
+					<div class="toggle"><img src="../images/minus_icon.png"></div>
+					<div class="clear"></div><!-- intentionally blank -->
+				</div>
+				<div class="progress-row">
+					<div class="item partial-item">
+						<div class="floater"></div><!-- intentionally blank -->
+						<div class="container">
+							<div class="progress">3/4</div>
+							<div class="category">Software</div>
+						</div>
+					</div>
+					<div class="item complete-item">
+						<div class="floater"></div><!-- intentionally blank -->
+						<div class="container">
+							<div class="progress">1/1</div>
+							<div class="category">Your Gear</div>
+						</div>
+					</div>
+					<div class="item partial-item">
+						<div class="floater"></div><!-- intentionally blank -->
+						<div class="container">
+							<div class="progress">1/2</div>
+							<div class="category">Program</div>
+						</div>
+					</div>
+					<div class="item partial-item">
+						<div class="floater"></div><!-- intentionally blank -->
+						<div class="container">
+							<div class="progress">1/2</div>
+							<div class="category">People</div>
+						</div>
+					</div>
+					<div class="item partial-item">
+						<div class="floater"></div><!-- intentionally blank -->
+						<div class="container">
+							<div class="progress">2/4</div>
+							<div class="category">Reading</div>
+						</div>
+					</div>
+					<div class="item empty-item">
+						<div class="floater"></div><!-- intentionally blank -->
+						<div class="container">
+							<div class="progress">0/4</div>
+							<div class="category">Forms</div>
+						</div>
+					</div>
+					<div class="clear"></div><!-- intentionally blank -->
+				</div>
+			</div>
+			<div class="checklist-footer-collapsed" style="display: none">
+				<div class="title-row">
+					<div class="title">checklist overview</div>
+					<div class="toggle"><img src="../images/plus_icon.png"></div>
+				</div>
+			</div>
+		</div>
+	';
+?>
 <html>
 	<head>
 		<title>Hello.</title>
@@ -80,7 +144,7 @@
 						<div id="change-dialog">
 							<div>Change Photo!</div>
 						</div>
-						<div id="stored-picture"><img src="../images/cman_profile.jpg"></div>
+						<div id="stored-picture"><img src="../images/profile_photo2.png"></div>
 						<div id="webcam" class="size440x330"></div>
 						<div><select id="popup-webcam-cams"></select></div>
 						<div>
@@ -152,6 +216,7 @@
 						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
 					</form>
 				</div>
+				<?= $checklist_html ?>
 			</div>
 
 			<div id="step-4" class="step">
@@ -175,6 +240,7 @@
 						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
 					</form>
 				</div>
+				<?= $checklist_html ?>
 			</div>
 
 			<div id="step-5" class="step">
@@ -198,6 +264,7 @@
 						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
 					</form>
 				</div>
+				<?= $checklist_html ?>
 			</div>
 
 			<div id="step-6" class="step">
@@ -221,6 +288,7 @@
 						<div class="submit-button"><input id="continue" type="button" value="submit" /></div>
 					</form>
 				</div>
+				<?= $checklist_html ?>
 			</div>
 
 		</div>
