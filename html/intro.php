@@ -224,5 +224,8 @@
 			</div>
 
 		</div>
+		<div id="hidden-region" style="display: none;">
+			<div id="hidden-user-id"></div>
+		</div>
 	</body>
 </html>

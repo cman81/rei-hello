@@ -22,7 +22,7 @@ else{
         print_r($result_arr);
         print_r($res_mgr_res_arr);
         print '</pre>';*/
-        $status = $success."|".$result_arr['first_name'].'!|'.$result_arr['title'].'|'.$result_arr['name'].'|'.$res_mgr_res_arr['first_name'].' '.$res_mgr_res_arr['last_name'];
+        $status = $success."|".$result_arr['first_name'].'!|'.$result_arr['title'].'|'.$result_arr['name'].'|'.$res_mgr_res_arr['first_name'].' '.$res_mgr_res_arr['last_name'].'|'.$result_arr['user_id'];
     }
     else
         $status = $wrong_pass;

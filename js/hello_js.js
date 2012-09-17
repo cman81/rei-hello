@@ -38,6 +38,7 @@ function loadNextPage(){
                     $('#blue-text-title').html(response_arr[2]);
                     $('#blue-text-project').html(response_arr[3]);
                     $('#blue-text-resource-mgr').html(response_arr[4]);
+					$('#hidden-user-id').html(response_arr[5]);
                 }
             }
         }
@@ -74,4 +75,38 @@ function loadNextPage2(){
     xmlhttp.open("POST","../content.php",true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xmlhttp.send(vars);
+}
+
+function loadNetwork(){
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+		xmlhttp=new XMLHttpRequest();
+	else
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+
+	var vars = "uid=" + $('#hidden-user-id').html();
+
+	xmlhttp.onreadystatechange=function(){
+		if (xmlhttp.readyState==4 && xmlhttp.status==200){
+			var returnJson = eval("(" + xmlhttp.responseText + ")");
+			var positionMap = {
+				'Program Manager' : 'program-manager',
+				'Program Coordinator' : 'program-coordinator',
+				'Mentor' : 'mentor',
+				'Resource Manager' : 'resource-manager'
+			}
+
+
+			for (i in returnJson) {
+				var targetId = positionMap[returnJson[i].position];
+				$('#' + targetId + ' .name').html(returnJson[i].first_name + " " + returnJson[i].last_name);
+				$('#' + targetId + ' .title').html(returnJson[i].position);
+				$('#' + targetId + ' .avatar').html(returnJson[i].avatar_path);
+			}
+		}
+	}
+
+	xmlhttp.open("POST","../network.php",true);
+	xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xmlhttp.send(vars);
 }
