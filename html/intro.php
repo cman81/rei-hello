@@ -167,41 +167,59 @@
 					</div>
 				</div>
 				<div class="intro-form-block form-block">
-                    <!--<form method="POST" action="" onsubmit="loadNextPage2();return false;">-->
-						<div class="submit-button"><input class="continue" type="submit" value="continue" /></div>
+                    <form method="POST" action="" onsubmit="loadNextPage2();return false;">
+						<div class="submit-button"><input class="continue--" type="submit" value="continue" /></div>
 					</form>
 				</div>
 				<p class="webcam-error"></p>
 			</div>
 			<?php // Network ?>
-			<div id="step-1-5" class="step">
-				<div class="network-blurb-block blurb-block">
+			<div id="step-1b" class="step">
+				<div id="network-blurb-block" class="blurb-block">
 					<div class="avatars">
-						<div id="avatar-program-manager">
-							<div class="name">Amit Yadav</div>
-							<div class="title">Program Manager</div>
+						<div id="avatar-program-manager" class="text-left">
+							<div class="text-container">
+								<div class="name blue-text">Amit Yadav</div>
+								<div class="title">Program Manager</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/amit.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-program-coordinator">
-							<div class="name">Anita Kozak</div>
-							<div class="title">Program Coordinator</div>
+						<div id="avatar-program-coordinator" class="text-left">
+							<div class="text-container">
+								<div class="name blue-text">Anita Kozak</div>
+								<div class="title">Program Coordinator</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/anita.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-resource-manager">
-							<div class="name">Tim Molinaro</div>
-							<div class="title">Resource Manager</div>
+						<div id="avatar-resource-manager" class="text-top">
+							<div class="text-container">
+								<div class="floater"></div>
+								<div class="content">
+									<div class="name blue-text">Tim Molinaro</div>
+									<div class="title">Resource Manager</div>
+								</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/tim.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-mentor">
-							<div class="name">Zerihun Tegegn</div>
-							<div class="title">Mentor</div>
+						<div id="avatar-mentor" class="text-right">
+							<div class="text-container">
+								<div class="name blue-text">Z. Tegegn</div>
+								<div class="title">Mentor</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/z.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-everyone-else">
-							<div class="name">Everyone Else</div>
+						<div id="avatar-everyone-else" class="text-right">
+							<div class="text-container">
+								<div class="name blue-text">Everyone Else</div>
+							</div>
 							<div class="avatar small"><img src="../uploads/other.png" /></div>
+							<div class="clear"></div>
 						</div>
-						<div id="avatar-self" large"><img src="../images/profile_photo.png" /></div>
+						<div id="avatar-self"><img src="../images/profile_photo.png" /></div>
 					</div>
 
 					<div class="blurb">
@@ -291,20 +309,13 @@
 			</div>
 
 			<div id="step-4" class="step step-with-overlay">
-				<div class="intro-blurb-block blurb-block">
-					<div class="avatar">
-						<img src="../images/profile_photo.png" />
-					</div>
-					<div class="huge-welcome">OPPA <span class="blue-text">GANGNAM STYLE! 4</span></div>
-					<div class="blurb">
-						We know you're new here, and we want to make your first steps as painless as possible. Just in case
-						you didn't already know, you're the new <span class="blue-text">Associate Database Engineer</span>
-						on the <span class="blue-text">NYC Checkbook</span> project in the <span class="blue-text">Open
-						Government</span> program. Your mentor will be <span class="blue-text">Anita Kozak</span>; she can
-						answer any questions you may have. Starting today, you'll report to <span class="blue-text">Amanandan
-						Dhami</span>. You'll be working on the Open Government team which is led by <span class="blue-text">Amit
-						Yadav</span>.
-					</div>
+				<div style="width:670px;margin:0 auto;pading: 0 0 0 40px;">
+				<a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../images/drupal.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
+				<a href="https://www.youtube.com/watch?v=ylMqfFIebuw" target="_blank"><img src="../images/jira.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
+				<a href="https://www.youtube.com/watch?v=GUNJqFwzrjY&feature=fvst" target="_blank"><img src="../images/skype.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
+				<a href="https://www.youtube.com/watch?v=TPY8UwlTIc0" target="_blank"><img src="../images/github.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
+				<a href="https://www.youtube.com/watch?v=ne7wlDSg_D8" target="_blank"><img src="../images/mamp.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
+				<a href="https://www.youtube.com/watch?v=4iGuZRvrRP0" target="_blank"><img src="../images/adobe.png" style="margin:40px 40px 0 0;box-shadow: 0 2px 4px rgba(0,0,0,0.1);"/></a>
 				</div>
 				<div class="intro-form-block form-block">
 					<form>

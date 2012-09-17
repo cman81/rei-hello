@@ -27,7 +27,7 @@ body {
     position:absolute;
     height:96%;
     width:100%;
-    margin:-250px 0 -50px 0;
+    margin:-350px 0 -50px 0;
     background-color:#00cce4;
     color:#fff;
     z-index:-1;
@@ -460,3 +460,68 @@ body {
             position: relative;
             width: 100%;
         }
+
+
+#network-blurb-block {
+    font-family: "Bitter", Georgia, serif;
+}
+    #network-blurb-block .avatars {
+        width: 960px;
+        height: 560px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #avatar-resource-manager {
+        position: absolute;
+        left: 400px;
+        top: -10px;
+    }
+    #avatar-program-manager {
+        position: absolute;
+        top: 900px;
+        left: 90px;
+    }
+    #avatar-mentor {
+        position: absolute;
+        top: 90px;
+        left: 610px;
+    }
+    #avatar-program-coordinator {
+        position: absolute;
+        top: 250px;
+        left: 0;
+    }
+    #avatar-everyone-else {
+        position: absolute;
+        top: 250px;
+        right: 10px;
+    }
+    #avatar-self {
+        position: absolute;
+        top: 220px;
+        left: 210px;
+    }
+    #network-blurb-block .text-left,
+    #network-blurb-block .text-right { width: 250px }
+    #network-blurb-block .text-top { width: 150px; }
+    #network-blurb-block .text-left .avatar { float: right; }
+    #network-blurb-block .text-left .text-container {float: left; }
+
+    #network-blurb-block .text-right .avatar { float: left; }
+    #network-blurb-block .text-right .text-container {float: right; }
+
+    .text-left .text-container,
+    .text-right .text-container {
+        margin-top: 37px;
+    }
+    #avatar-resource-manager .text-container {
+        margin-bottom: 10px;
+    }
+
+
+    #network-blurb-block .name {
+        font-size: 1.5em;
+    }
+    #network-blurb-block .title {
+        font-size: 1em;
+    }
