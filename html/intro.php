@@ -296,26 +296,9 @@
 			</div>
 
 			<div id="step-6" class="step step-with-overlay">
-				<div class="intro-blurb-block blurb-block">
-					<div class="avatar">
-						<img src="../images/profile_photo.png" />
-					</div>
-					<div class="huge-welcome">OPPA <span class="blue-text">GANGNAM STYLE! 6</span></div>
-					<div class="blurb">
-						We know you're new here, and we want to make your first steps as painless as possible. Just in case
-						you didn't already know, you're the new <span class="blue-text">Associate Database Engineer</span>
-						on the <span class="blue-text">NYC Checkbook</span> project in the <span class="blue-text">Open
-						Government</span> program. Your mentor will be <span class="blue-text">Anita Kozak</span>; she can
-						answer any questions you may have. Starting today, you'll report to <span class="blue-text">Amanandan
-						Dhami</span>. You'll be working on the Open Government team which is led by <span class="blue-text">Amit
-						Yadav</span>.
-					</div>
-				</div>
-				<div class="intro-form-block form-block">
-					<form>
-						<div class="submit-button"><input id="continue" type="button" value="submit" /></div>
-					</form>
-				</div>
+				<div class="blue_bg"></div>
+				<div class="done">Congratulations, you're done!</div>
+				<div class="doneSubtext">If you forget anything or just want quick reference, you can always come back.</div>
 				<?= $checklist_html ?>
 			</div>
 
