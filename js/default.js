@@ -18,10 +18,11 @@ $(document).ready(function() {
 	// When user clicks on "Continue" button
   $('.continue').click(function(e) {
 
-  	var currentStep = $('.step.active').attr('id').substr(-1);
-  	var nextStep = (parseInt(currentStep)+1).toString();
+	var currentStep = $('.step.active').attr('id').substr(5, 1);
+	var stepToRemove = $('.step.active').attr('id').substr(5);
+	var nextStep = (parseInt(currentStep)+1).toString();
 
-  	$('#step-'+currentStep).removeClass('active')
+  	$('#step-'+stepToRemove).removeClass('active')
   		.addClass('complete')
   		.hide("slide", { direction: "left" }, 200);
   	$('#nav_'+currentStep).removeClass('active')

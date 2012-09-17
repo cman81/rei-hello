@@ -51,7 +51,7 @@ function loadNextPage(){
 
 function loadNextPage2(){
 	$('#step-1').removeClass('active').hide("slide", { direction: "left" }, 200);
-	$('#step-1-5').addClass('active').fadeIn(600);
+	$('#step-1b').addClass('active').fadeIn(600);
 }
 
 function loadNetwork(){

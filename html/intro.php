@@ -174,7 +174,7 @@
 				<p class="webcam-error"></p>
 			</div>
 			<?php // Network ?>
-			<div id="step-1-5" class="step">
+			<div id="step-1b" class="step">
 				<div id="network-blurb-block" class="blurb-block">
 					<div class="avatars">
 						<div id="avatar-program-manager" class="text-left">
