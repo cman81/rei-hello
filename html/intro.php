@@ -308,25 +308,14 @@
 			</div>
 
 			<div id="step-4" class="step step-with-overlay">
-				<div class="intro-blurb-block blurb-block">
-					<div class="avatar">
-						<img src="../images/profile_photo.png" />
-					</div>
-					<div class="huge-welcome">OPPA <span class="blue-text">GANGNAM STYLE! 4</span></div>
-					<div class="blurb">
-						We know you're new here, and we want to make your first steps as painless as possible. Just in case
-						you didn't already know, you're the new <span class="blue-text">Associate Database Engineer</span>
-						on the <span class="blue-text">NYC Checkbook</span> project in the <span class="blue-text">Open
-						Government</span> program. Your mentor will be <span class="blue-text">Anita Kozak</span>; she can
-						answer any questions you may have. Starting today, you'll report to <span class="blue-text">Amanandan
-						Dhami</span>. You'll be working on the Open Government team which is led by <span class="blue-text">Amit
-						Yadav</span>.
-					</div>
-				</div>
-				<div class="intro-form-block form-block">
-					<form>
-						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
-					</form>
+				<div id="step-4" class="step step-with-overlay">
+				<div style="width:670px;margin:0 auto;">
+				<a href="#"><img src="../images/drupal.png" /></a>
+				<a href="#"><img src="../images/jira.png" /></a>
+				<a href="#"><img src="../images/skype.png" /></a>
+				<a href="#"><img src="images/github.png" /></a>
+				<a href="#"><img src="images/mamp.png" /></a>
+				<a href="#"><img src="images/adobe.png" /></a>
 				</div>
 				<?= $checklist_html ?>
 			</div>

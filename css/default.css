@@ -16,26 +16,39 @@ body {
     clear: both;
     height: 450px;
     position: relative;
-    width: 100%;
+    width: %;
 }
 
 #login-blurb-block,
 #paperwork-blurb-block { font-style: italic; }
 
+.blue_bg
+{
+    position:absolute;
+    height:96%;
+    width:100%;
+    margin:-250px 0 -50px 0;
+    background-color:#00cce4;
+    color:#fff;
+    z-index:-1;
+}
+
 .done
 {
     font-family:Bitter;
     font-style:italic;
-    font-size:3.0em;
+    font-size:3.2em;
     color:#fff;
     text-align:center;
+    margin-top:400px;
 }
 .doneSubtext
 {
     text-align:center;
     font-family:Bitter;
     font-style:italic;
-    font-size:1.2em;
+    font-size:0.8em;
+    margin-top:20px;
     color:#fff;
 }
 
