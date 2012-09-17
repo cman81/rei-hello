@@ -308,14 +308,13 @@
 			</div>
 
 			<div id="step-4" class="step step-with-overlay">
-				<div id="step-4" class="step step-with-overlay">
 				<div style="width:670px;margin:0 auto;">
 				<a href="#"><img src="../images/drupal.png" /></a>
 				<a href="#"><img src="../images/jira.png" /></a>
 				<a href="#"><img src="../images/skype.png" /></a>
-				<a href="#"><img src="images/github.png" /></a>
-				<a href="#"><img src="images/mamp.png" /></a>
-				<a href="#"><img src="images/adobe.png" /></a>
+				<a href="#"><img src="../images/github.png" /></a>
+				<a href="#"><img src="../images/mamp.png" /></a>
+				<a href="#"><img src="../images/adobe.png" /></a>
 				</div>
 				<?= $checklist_html ?>
 			</div>
