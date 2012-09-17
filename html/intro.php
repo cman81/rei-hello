@@ -167,8 +167,8 @@
 					</div>
 				</div>
 				<div class="intro-form-block form-block">
-                    <form method="POST" action="" onsubmit="loadNextPage2();return false;">
-						<div class="submit-button"><input class="continue--" type="submit" value="continue" /></div>
+                    <!--<form method="POST" action="" onsubmit="loadNextPage2();return false;">-->
+						<div class="submit-button"><input class="continue" type="submit" value="continue" /></div>
 					</form>
 				</div>
 				<p class="webcam-error"></p>
