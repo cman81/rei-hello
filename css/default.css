@@ -22,20 +22,32 @@ body {
 #login-blurb-block,
 #paperwork-blurb-block { font-style: italic; }
 
+.blue_bg
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    margin:-150px 0 -50px 0;
+    background-color:#00cce4;
+    color:#fff;
+}
+
 .done
 {
     font-family:Bitter;
     font-style:italic;
-    font-size:3.0em;
+    font-size:2.2em;
     color:#fff;
     text-align:center;
+    margin-top:200px;
 }
 .doneSubtext
 {
     text-align:center;
     font-family:Bitter;
     font-style:italic;
-    font-size:1.2em;
+    font-size:0.8em;
+    margin-top:50px;
     color:#fff;
 }
 
