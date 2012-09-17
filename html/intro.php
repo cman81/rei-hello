@@ -206,7 +206,7 @@
 						</div>
 						<div id="avatar-mentor" class="text-right">
 							<div class="text-container">
-								<div class="name blue-text">Zerihun Tegegn</div>
+								<div class="name blue-text">Z. Tegegn</div>
 								<div class="title">Mentor</div>
 							</div>
 							<div class="avatar small"><img src="../uploads/z.png" /></div>
