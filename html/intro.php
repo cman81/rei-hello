@@ -171,24 +171,48 @@
 			</div>
 			<?php // Checklist ?>
 			<div id="step-2" class="step">
+                <div id='checklist-container'></div>
 				<div class="column-1">
-					<div class="checklist-blurb-block blurb-block">
-						<form>
-							<div class="field-group">Software</div>
-							<div class="checkbox-input"><label for="photoshop"><input type="checkbox" name="photoshop" id="photoshop" value="Adobe Photoshop CS6">Adobe Photoshop CS6</label></div>
-							<div class="checkbox-input"><label for="illustrator"><input type="checkbox" name="illustrator" id="illustrator" value="Adobe Illustrator CS6">Adobe Illustrator CS6</label></div>
-							<div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign" value="Adobe InDesign CS6">Adobe InDesign CS6</label></div>
-						</form>
+					<div class="checklist-blurb-block blurb-block checklist-organiser">
+                            <div class="field-group">Software</div>
+                            <div class="checkbox-input"><label for="photoshop"><input type="checkbox" name="photoshop" id="photoshop">Adobe Photoshop CS6</label></div>
+                            <div class="checkbox-input"><label for="illustrator"><input type="checkbox" name="illustrator" id="illustrator">Adobe Illustrator CS6</label></div>
+                            <div class="checkbox-input"><label for="indesign"><input type="checkbox" name="indesign" id="indesign">Adobe InDesign CS6</label></div>
+                        <div class="checkbox-input"><label for="word"><input type="checkbox" name="word" id="word">Microsoft Word for Mac 2011</label></div>
 					</div>
-					
+                    <div class="checklist-blurb-block blurb-block checklist-organiser">
+                        <div class="field-group">Your Gear</div>
+                        <div class="checkbox-input"><label for="laptop"><input type="checkbox" name="laptop" id="laptop">Laptop -- you can pick Mac or PC!</label></div>
+                    </div>
+                    <div class="checklist-blurb-block blurb-block checklist-organiser">
+                        <div class="field-group">Program</div>
+                        <div class="checkbox-input"><label for="jira"><input type="checkbox" name="jira" id="jira">Hooked up to Jira</label></div>
+                        <div class="checkbox-input"><label for="vpn"><input type="vpn" name="illustrator" id="vpn">Have your VPN client</label></div>
+                    </div>
 				</div>
 				<div class="column-2">
-
+                    <div class="checklist-blurb-block blurb-block checklist-organiser">
+                            <div class="field-group">People</div>
+                            <div class="checkbox-input"><label for="anita"><input type="checkbox" name="anita" id="anita">Have you met Anita Kozak?</label></div>
+                            <div class="checkbox-input"><label for="amit"><input type="checkbox" name="amit" id="amit">Have you met Amit Yadav?</label></div>
+                     </div>
+                    <div class="checklist-blurb-block blurb-block checklist-organiser">
+                        <div class="field-group">Reading</div>
+                        <div class="checkbox-input"><label for="handbook"><input type="checkbox" name="handbook" id="handbook">Employee Handbook</label></div>
+                        <div class="checkbox-input"><label for="401k"><input type="checkbox" name="401k" id="401k">401k Plan Info</label></div>
+                        <div class="checkbox-input"><label for="retirement"><input type="checkbox" name="retirement" id="retirement">Retirement Plans</label></div>
+                        <div class="checkbox-input"><label for="insurance"><input type="checkbox" name="insurance" id="insurance">Health Insurance</label></div>
+                    </div>
+                    <div class="checklist-blurb-block blurb-block checklist-organiser">
+                        <div class="field-group">Forms</div>
+                        <div class="checkbox-input"><label for="form-handbook"><input type="checkbox" name="form-handbook" id="form-handbook">Employee Handbook</label></div>
+                        <div class="checkbox-input"><label for="form-401k"><input type="checkbox" name="form-401k" id="form-401k">401k Plan Info</label></div>
+                        <div class="checkbox-input"><label for="form-retirement"><input type="checkbox" name="form-retirement" id="form-retirement">Retirement Plans</label></div>
+                        <div class="checkbox-input"><label for="form-insurance"><input type="checkbox" name="form-insurance" id="form-insurance">Health Insurance</label></div>
+                    </div>
 				</div>
 				<div class="checklist-form-block form-block">
-					<form>
 						<div class="submit-button"><input class="continue" type="button" value="continue" /></div>
-					</form>
 				</div>
 			</div>
 
